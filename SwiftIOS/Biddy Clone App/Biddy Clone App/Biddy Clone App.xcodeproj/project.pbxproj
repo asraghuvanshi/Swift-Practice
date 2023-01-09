@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2081005296365250060DD96 /* TwitterScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2081004296365250060DD96 /* TwitterScreenVC.swift */; };
+		B20A34092961E7D7002D067F /* HandleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20A34082961E7D7002D067F /* HandleError.swift */; };
+		B20C640B296444A00018B91E /* BiddyReceiverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20C640A2964449F0018B91E /* BiddyReceiverVC.swift */; };
+		B20C640D2964528F0018B91E /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20C640C2964528F0018B91E /* ForgetPasswordVC.swift */; };
+		B20F4B02295C5F2B00BA5CE5 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F4B01295C5F2A00BA5CE5 /* AlertController.swift */; };
+		B20F4B04295C60FC00BA5CE5 /* Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F4B03295C60FC00BA5CE5 /* Literals.swift */; };
+		B20F4B06295C79EF00BA5CE5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F4B05295C79EF00BA5CE5 /* Utility.swift */; };
+		B2132142296335170040FEB5 /* UserModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2132141296335170040FEB5 /* UserModelData.swift */; };
+		B213214529633CCA0040FEB5 /* getUserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213214429633CCA0040FEB5 /* getUserType.swift */; };
+		B213214729633DDC0040FEB5 /* FacebookOrGoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213214629633DDC0040FEB5 /* FacebookOrGoogleLogin.swift */; };
+		B22A9602295EBA7800E38E8A /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22A9601295EBA7800E38E8A /* Headers.swift */; };
+		B22CCEBC295E15000088923D /* OTPScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22CCEBB295E15000088923D /* OTPScreenVC.swift */; };
+		B238C9C129660B8A00616F4E /* SignUpScreenVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B238C9C029660B8A00616F4E /* SignUpScreenVC1.swift */; };
+		B2579C71295D59B400887E00 /* USERAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2579C70295D59B400887E00 /* USERAPI.swift */; };
+		B2579C77295DCB4B00887E00 /* SaveToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2579C76295DCB4B00887E00 /* SaveToken.swift */; };
+		B25C448D2966F287009F564A /* Pods_Biddy_Clone_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A2F4DAF39AB25D4458B830 /* Pods_Biddy_Clone_App.framework */; };
+		B2754697295ABEC800ADB345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2754696295ABEC800ADB345 /* AppDelegate.swift */; };
+		B2754699295ABEC800ADB345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2754698295ABEC800ADB345 /* SceneDelegate.swift */; };
+		B275469B295ABEC800ADB345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B275469A295ABEC800ADB345 /* ViewController.swift */; };
+		B275469E295ABEC800ADB345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B275469C295ABEC800ADB345 /* Main.storyboard */; };
+		B27546A0295ABECB00ADB345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B275469F295ABECB00ADB345 /* Assets.xcassets */; };
+		B27546A3295ABECB00ADB345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27546A1295ABECB00ADB345 /* LaunchScreen.storyboard */; };
+		B27546AE295ABECB00ADB345 /* Biddy_Clone_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27546AD295ABECB00ADB345 /* Biddy_Clone_AppTests.swift */; };
+		B27546B8295ABECB00ADB345 /* Biddy_Clone_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27546B7295ABECB00ADB345 /* Biddy_Clone_AppUITests.swift */; };
+		B27546BA295ABECB00ADB345 /* Biddy_Clone_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27546B9295ABECB00ADB345 /* Biddy_Clone_AppUITestsLaunchTests.swift */; };
+		B2DAEC8C2962EB60008F2449 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2DAEC8B2962EB60008F2449 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27546AA295ABECB00ADB345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B275468B295ABEC700ADB345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2754692295ABEC800ADB345;
+			remoteInfo = "Biddy Clone App";
+		};
+		B27546B4295ABECB00ADB345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B275468B295ABEC700ADB345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2754692295ABEC800ADB345;
+			remoteInfo = "Biddy Clone App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3D8CDF1DB8DE756949C0B2 /* Pods-Biddy Clone App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biddy Clone App.debug.xcconfig"; path = "Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App.debug.xcconfig"; sourceTree = "<group>"; };
+		41A2F4DAF39AB25D4458B830 /* Pods_Biddy_Clone_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biddy_Clone_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911E10E483325AC8DE1659D0 /* Pods-Biddy Clone App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biddy Clone App.release.xcconfig"; path = "Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App.release.xcconfig"; sourceTree = "<group>"; };
+		B2081004296365250060DD96 /* TwitterScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterScreenVC.swift; sourceTree = "<group>"; };
+		B20A34082961E7D7002D067F /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
+		B20C640A2964449F0018B91E /* BiddyReceiverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddyReceiverVC.swift; sourceTree = "<group>"; };
+		B20C640C2964528F0018B91E /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		B20F4B01295C5F2A00BA5CE5 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		B20F4B03295C60FC00BA5CE5 /* Literals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literals.swift; sourceTree = "<group>"; };
+		B20F4B05295C79EF00BA5CE5 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		B2132141296335170040FEB5 /* UserModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelData.swift; sourceTree = "<group>"; };
+		B213214429633CCA0040FEB5 /* getUserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getUserType.swift; sourceTree = "<group>"; };
+		B213214629633DDC0040FEB5 /* FacebookOrGoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookOrGoogleLogin.swift; sourceTree = "<group>"; };
+		B22A9601295EBA7800E38E8A /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		B22CCEBB295E15000088923D /* OTPScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenVC.swift; sourceTree = "<group>"; };
+		B238C9C029660B8A00616F4E /* SignUpScreenVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenVC1.swift; sourceTree = "<group>"; };
+		B2579C70295D59B400887E00 /* USERAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USERAPI.swift; sourceTree = "<group>"; };
+		B2579C76295DCB4B00887E00 /* SaveToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveToken.swift; sourceTree = "<group>"; };
+		B2754693295ABEC800ADB345 /* Biddy Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biddy Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2754696295ABEC800ADB345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2754698295ABEC800ADB345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B275469A295ABEC800ADB345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B275469D295ABEC800ADB345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B275469F295ABECB00ADB345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27546A2295ABECB00ADB345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27546A4295ABECB00ADB345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27546A9295ABECB00ADB345 /* Biddy Clone AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biddy Clone AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27546AD295ABECB00ADB345 /* Biddy_Clone_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biddy_Clone_AppTests.swift; sourceTree = "<group>"; };
+		B27546B3295ABECB00ADB345 /* Biddy Clone AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biddy Clone AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27546B7295ABECB00ADB345 /* Biddy_Clone_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biddy_Clone_AppUITests.swift; sourceTree = "<group>"; };
+		B27546B9295ABECB00ADB345 /* Biddy_Clone_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biddy_Clone_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2DAEC8B2962EB60008F2449 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2E645D1295F6E1300388BDB /* Biddy Clone App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Biddy Clone App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2754690295ABEC800ADB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25C448D2966F287009F564A /* Pods_Biddy_Clone_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546A6295ABECB00ADB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546B0295ABECB00ADB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A39A3DF9E5BB00EF9D07041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A2F4DAF39AB25D4458B830 /* Pods_Biddy_Clone_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20F4AFA295C2B3100BA5CE5 /* Assert */ = {
+			isa = PBXGroup;
+			children = (
+				B213214329633CA60040FEB5 /* Global */,
+				B20F4B01295C5F2A00BA5CE5 /* AlertController.swift */,
+				B20F4B03295C60FC00BA5CE5 /* Literals.swift */,
+				B20F4B05295C79EF00BA5CE5 /* Utility.swift */,
+				B2579C76295DCB4B00887E00 /* SaveToken.swift */,
+			);
+			name = Assert;
+			sourceTree = "<group>";
+		};
+		B213214329633CA60040FEB5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B213214429633CCA0040FEB5 /* getUserType.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B22A9600295EBA5900E38E8A /* HttpHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B22A9601295EBA7800E38E8A /* Headers.swift */,
+				B20A34082961E7D7002D067F /* HandleError.swift */,
+			);
+			path = HttpHeaders;
+			sourceTree = "<group>";
+		};
+		B2579C6F295D598200887E00 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B2579C70295D59B400887E00 /* USERAPI.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		B275468A295ABEC700ADB345 = {
+			isa = PBXGroup;
+			children = (
+				B2754695295ABEC800ADB345 /* Biddy Clone App */,
+				B27546AC295ABECB00ADB345 /* Biddy Clone AppTests */,
+				B27546B6295ABECB00ADB345 /* Biddy Clone AppUITests */,
+				B2754694295ABEC800ADB345 /* Products */,
+				F467F4F7A98479A67915B201 /* Pods */,
+				3A39A3DF9E5BB00EF9D07041 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2754694295ABEC800ADB345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2754693295ABEC800ADB345 /* Biddy Clone App.app */,
+				B27546A9295ABECB00ADB345 /* Biddy Clone AppTests.xctest */,
+				B27546B3295ABECB00ADB345 /* Biddy Clone AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2754695295ABEC800ADB345 /* Biddy Clone App */ = {
+			isa = PBXGroup;
+			children = (
+				B2E645D1295F6E1300388BDB /* Biddy Clone App.entitlements */,
+				B22A9600295EBA5900E38E8A /* HttpHeaders */,
+				B2579C6F295D598200887E00 /* API Manager */,
+				B20F4AFA295C2B3100BA5CE5 /* Assert */,
+				B27546C7295AC00B00ADB345 /* Model */,
+				B27546C6295ABF9300ADB345 /* ViewController */,
+				B2754698295ABEC800ADB345 /* SceneDelegate.swift */,
+				B275469C295ABEC800ADB345 /* Main.storyboard */,
+				B275469F295ABECB00ADB345 /* Assets.xcassets */,
+				B27546A1295ABECB00ADB345 /* LaunchScreen.storyboard */,
+				B2DAEC8B2962EB60008F2449 /* GoogleService-Info.plist */,
+				B27546A4295ABECB00ADB345 /* Info.plist */,
+			);
+			path = "Biddy Clone App";
+			sourceTree = "<group>";
+		};
+		B27546AC295ABECB00ADB345 /* Biddy Clone AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27546AD295ABECB00ADB345 /* Biddy_Clone_AppTests.swift */,
+			);
+			path = "Biddy Clone AppTests";
+			sourceTree = "<group>";
+		};
+		B27546B6295ABECB00ADB345 /* Biddy Clone AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B27546B7295ABECB00ADB345 /* Biddy_Clone_AppUITests.swift */,
+				B27546B9295ABECB00ADB345 /* Biddy_Clone_AppUITestsLaunchTests.swift */,
+			);
+			path = "Biddy Clone AppUITests";
+			sourceTree = "<group>";
+		};
+		B27546C6295ABF9300ADB345 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2754696295ABEC800ADB345 /* AppDelegate.swift */,
+				B275469A295ABEC800ADB345 /* ViewController.swift */,
+				B22CCEBB295E15000088923D /* OTPScreenVC.swift */,
+				B213214629633DDC0040FEB5 /* FacebookOrGoogleLogin.swift */,
+				B2081004296365250060DD96 /* TwitterScreenVC.swift */,
+				B20C640A2964449F0018B91E /* BiddyReceiverVC.swift */,
+				B20C640C2964528F0018B91E /* ForgetPasswordVC.swift */,
+				B238C9C029660B8A00616F4E /* SignUpScreenVC1.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B27546C7295AC00B00ADB345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2132141296335170040FEB5 /* UserModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F467F4F7A98479A67915B201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D8CDF1DB8DE756949C0B2 /* Pods-Biddy Clone App.debug.xcconfig */,
+				911E10E483325AC8DE1659D0 /* Pods-Biddy Clone App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2754692295ABEC800ADB345 /* Biddy Clone App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27546BD295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone App" */;
+			buildPhases = (
+				5693B24DFEBCE0E2F1B69DA7 /* [CP] Check Pods Manifest.lock */,
+				B275468F295ABEC800ADB345 /* Sources */,
+				B2754690295ABEC800ADB345 /* Frameworks */,
+				B2754691295ABEC800ADB345 /* Resources */,
+				2D85AAFBC777FE0122B5534A /* [CP] Embed Pods Frameworks */,
+				B188EEAAD08EB21126EAF7B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Biddy Clone App";
+			productName = "Biddy Clone App";
+			productReference = B2754693295ABEC800ADB345 /* Biddy Clone App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27546A8295ABECB00ADB345 /* Biddy Clone AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27546C0295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone AppTests" */;
+			buildPhases = (
+				B27546A5295ABECB00ADB345 /* Sources */,
+				B27546A6295ABECB00ADB345 /* Frameworks */,
+				B27546A7295ABECB00ADB345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27546AB295ABECB00ADB345 /* PBXTargetDependency */,
+			);
+			name = "Biddy Clone AppTests";
+			productName = "Biddy Clone AppTests";
+			productReference = B27546A9295ABECB00ADB345 /* Biddy Clone AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B27546B2295ABECB00ADB345 /* Biddy Clone AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27546C3295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone AppUITests" */;
+			buildPhases = (
+				B27546AF295ABECB00ADB345 /* Sources */,
+				B27546B0295ABECB00ADB345 /* Frameworks */,
+				B27546B1295ABECB00ADB345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27546B5295ABECB00ADB345 /* PBXTargetDependency */,
+			);
+			name = "Biddy Clone AppUITests";
+			productName = "Biddy Clone AppUITests";
+			productReference = B27546B3295ABECB00ADB345 /* Biddy Clone AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B275468B295ABEC700ADB345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B2754692295ABEC800ADB345 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B27546A8295ABECB00ADB345 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B2754692295ABEC800ADB345;
+					};
+					B27546B2295ABECB00ADB345 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B2754692295ABEC800ADB345;
+					};
+				};
+			};
+			buildConfigurationList = B275468E295ABEC700ADB345 /* Build configuration list for PBXProject "Biddy Clone App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B275468A295ABEC700ADB345;
+			productRefGroup = B2754694295ABEC800ADB345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2754692295ABEC800ADB345 /* Biddy Clone App */,
+				B27546A8295ABECB00ADB345 /* Biddy Clone AppTests */,
+				B27546B2295ABECB00ADB345 /* Biddy Clone AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2754691295ABEC800ADB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27546A3295ABECB00ADB345 /* LaunchScreen.storyboard in Resources */,
+				B2DAEC8C2962EB60008F2449 /* GoogleService-Info.plist in Resources */,
+				B27546A0295ABECB00ADB345 /* Assets.xcassets in Resources */,
+				B275469E295ABEC800ADB345 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546A7295ABECB00ADB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546B1295ABECB00ADB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D85AAFBC777FE0122B5534A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5693B24DFEBCE0E2F1B69DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biddy Clone App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B188EEAAD08EB21126EAF7B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biddy Clone App/Pods-Biddy Clone App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B275468F295ABEC800ADB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213214729633DDC0040FEB5 /* FacebookOrGoogleLogin.swift in Sources */,
+				B238C9C129660B8A00616F4E /* SignUpScreenVC1.swift in Sources */,
+				B20F4B06295C79EF00BA5CE5 /* Utility.swift in Sources */,
+				B213214529633CCA0040FEB5 /* getUserType.swift in Sources */,
+				B2579C71295D59B400887E00 /* USERAPI.swift in Sources */,
+				B2132142296335170040FEB5 /* UserModelData.swift in Sources */,
+				B20A34092961E7D7002D067F /* HandleError.swift in Sources */,
+				B2579C77295DCB4B00887E00 /* SaveToken.swift in Sources */,
+				B275469B295ABEC800ADB345 /* ViewController.swift in Sources */,
+				B2754697295ABEC800ADB345 /* AppDelegate.swift in Sources */,
+				B20C640D2964528F0018B91E /* ForgetPasswordVC.swift in Sources */,
+				B20F4B04295C60FC00BA5CE5 /* Literals.swift in Sources */,
+				B22A9602295EBA7800E38E8A /* Headers.swift in Sources */,
+				B2081005296365250060DD96 /* TwitterScreenVC.swift in Sources */,
+				B20F4B02295C5F2B00BA5CE5 /* AlertController.swift in Sources */,
+				B20C640B296444A00018B91E /* BiddyReceiverVC.swift in Sources */,
+				B22CCEBC295E15000088923D /* OTPScreenVC.swift in Sources */,
+				B2754699295ABEC800ADB345 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546A5295ABECB00ADB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27546AE295ABECB00ADB345 /* Biddy_Clone_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27546AF295ABECB00ADB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27546B8295ABECB00ADB345 /* Biddy_Clone_AppUITests.swift in Sources */,
+				B27546BA295ABECB00ADB345 /* Biddy_Clone_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27546AB295ABECB00ADB345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2754692295ABEC800ADB345 /* Biddy Clone App */;
+			targetProxy = B27546AA295ABECB00ADB345 /* PBXContainerItemProxy */;
+		};
+		B27546B5295ABECB00ADB345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2754692295ABEC800ADB345 /* Biddy Clone App */;
+			targetProxy = B27546B4295ABECB00ADB345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B275469C295ABEC800ADB345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B275469D295ABEC800ADB345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27546A1295ABECB00ADB345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27546A2295ABECB00ADB345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27546BB295ABECB00ADB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B27546BC295ABECB00ADB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27546BE295ABECB00ADB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3D8CDF1DB8DE756949C0B2 /* Pods-Biddy Clone App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biddy Clone App/Biddy Clone App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biddy Clone App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27546BF295ABECB00ADB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911E10E483325AC8DE1659D0 /* Pods-Biddy Clone App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biddy Clone App/Biddy Clone App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biddy Clone App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B27546C1295ABECB00ADB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biddy Clone App.app/Biddy Clone App";
+			};
+			name = Debug;
+		};
+		B27546C2295ABECB00ADB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biddy Clone App.app/Biddy Clone App";
+			};
+			name = Release;
+		};
+		B27546C4295ABECB00ADB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biddy Clone App";
+			};
+			name = Debug;
+		};
+		B27546C5295ABECB00ADB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zimblecode.Biddy-Clone-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biddy Clone App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B275468E295ABEC700ADB345 /* Build configuration list for PBXProject "Biddy Clone App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27546BB295ABECB00ADB345 /* Debug */,
+				B27546BC295ABECB00ADB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27546BD295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27546BE295ABECB00ADB345 /* Debug */,
+				B27546BF295ABECB00ADB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27546C0295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27546C1295ABECB00ADB345 /* Debug */,
+				B27546C2295ABECB00ADB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27546C3295ABECB00ADB345 /* Build configuration list for PBXNativeTarget "Biddy Clone AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27546C4295ABECB00ADB345 /* Debug */,
+				B27546C5295ABECB00ADB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B275468B295ABEC700ADB345 /* Project object */;
+}

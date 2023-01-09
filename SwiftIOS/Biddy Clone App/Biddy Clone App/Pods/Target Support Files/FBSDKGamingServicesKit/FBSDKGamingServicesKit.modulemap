@@ -1,0 +1,6 @@
+framework module FBSDKGamingServicesKit {
+  umbrella header "FBSDKGamingServicesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
